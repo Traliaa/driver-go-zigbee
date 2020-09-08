@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 set -xe
 
-OWNER=ninjasphere
+OWNER=Tralia
 BIN_NAME=driver-go-zigbee
 PROJECT_NAME=driver-go-zigbee
 
