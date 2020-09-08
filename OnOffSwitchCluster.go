@@ -4,7 +4,7 @@ import (
 	"time"
 
 	"github.com/davecgh/go-spew/spew"
-	"github.com/ninjasphere/go-zigbee/nwkmgr"
+	"github.com/Traliaa/go-zigbee/nwkmgr"
 )
 
 type OnOffSwitchCluster struct {

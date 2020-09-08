@@ -3,7 +3,7 @@ package main
 import (
 	"reflect"
 
-	"github.com/ninjasphere/go-ninja/channels"
+	"github.com/Traliaa/chlab/channels"
 )
 
 // TODO: This should check if this is a motion or presence sensor, and output channels accordingly.

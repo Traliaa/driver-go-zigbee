@@ -5,13 +5,13 @@ import (
 	"os"
 	"time"
 
+	"github.com/Traliaa/chlab/events"
+	"github.com/Traliaa/chlab/logger"
+	"github.com/Traliaa/chlab/model"
+	"github.com/Traliaa/chlab/support"
+	"github.com/Traliaa/go-zigbee"
+	"github.com/Traliaa/go-zigbee/nwkmgr"
 	"github.com/davecgh/go-spew/spew"
-	"github.com/ninjasphere/go-ninja/events"
-	"github.com/ninjasphere/go-ninja/logger"
-	"github.com/ninjasphere/go-ninja/model"
-	"github.com/ninjasphere/go-ninja/support"
-	"github.com/ninjasphere/go-zigbee"
-	"github.com/ninjasphere/go-zigbee/nwkmgr"
 )
 
 const (
