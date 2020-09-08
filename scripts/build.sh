@@ -24,9 +24,7 @@ fi
 
 export GOPATH="$(pwd)/.gopath"
 
-# move the working path and build
-cd .gopath/src/github.com/${OWNER}/${PROJECT_NAME} &&
-go get -d -v ./...
+
 
 # fixup go dependencies
 GOOS= GOARCH= go get github.com/tools/godep
