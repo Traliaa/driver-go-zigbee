@@ -5,8 +5,8 @@ import (
 	"math"
 	"time"
 
-	"github.com/ninjasphere/go-ninja/channels"
-	"github.com/ninjasphere/go-zigbee/gateway"
+	"github.com/Traliaa/chlab/channels"
+	"github.com/Traliaa/go-zigbee/gateway"
 )
 
 type BrightnessChannel struct {

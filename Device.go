@@ -5,10 +5,10 @@ import (
 	"regexp"
 	"time"
 
-	"github.com/ninjasphere/go-ninja/api"
-	"github.com/ninjasphere/go-ninja/model"
-	"github.com/ninjasphere/go-zigbee/gateway"
-	"github.com/ninjasphere/go-zigbee/nwkmgr"
+	"github.com/Traliaa/chlab/api"
+	"github.com/Traliaa/chlab/model"
+	"github.com/Traliaa/go-zigbee/gateway"
+	"github.com/Traliaa/go-zigbee/nwkmgr"
 )
 
 type Device struct {

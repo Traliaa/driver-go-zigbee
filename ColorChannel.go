@@ -5,9 +5,9 @@ import (
 	"math"
 	"time"
 
+	"github.com/Traliaa/chlab/channels"
+	"github.com/Traliaa/go-zigbee/gateway"
 	"github.com/davecgh/go-spew/spew"
-	"github.com/ninjasphere/go-ninja/channels"
-	"github.com/ninjasphere/go-zigbee/gateway"
 )
 
 type ColorChannel struct {
