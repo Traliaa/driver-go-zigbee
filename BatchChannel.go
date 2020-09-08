@@ -1,6 +1,6 @@
 package main
 
-import "github.com/ninjasphere/go-ninja/devices"
+import "github.com/Traliaa/chlab/devices"
 
 type BatchChannel struct {
 	Channel

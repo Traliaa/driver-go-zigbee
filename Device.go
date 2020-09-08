@@ -74,7 +74,7 @@ func (d *Device) GetDeviceInfo() *model.Device {
 	return d.info
 }
 
-func (d *Device) GetDriver() ninja.Driver {
+func (d *Device) GetDriver() chlab.Driver {
 	return d.driver
 }
 

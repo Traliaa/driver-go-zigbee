@@ -9,8 +9,9 @@ import (
 )
 
 var (
-	info   = ninja.LoadModuleInfo("./package.json")
-	log    = logger.GetLogger(info.ID) // gets replaced by NewDriver
+	info = chlab.LoadModuleInfo("./package.json")
+	log  = logger.GetLogger(info.ID) // gets replaced by NewDriver
+
 	config = &ZStackConfig{
 		Hostname:       "localhost",
 		OtasrvrPort:    2525,
