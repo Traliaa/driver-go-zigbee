@@ -1,10 +1,10 @@
 package main
 
 import (
-	"github.com/ninjasphere/go-ninja/api"
-	nconfig "github.com/ninjasphere/go-ninja/config"
-	"github.com/ninjasphere/go-ninja/logger"
-	"github.com/ninjasphere/go-ninja/support"
+	"github.com/Traliaa/chlab/api"
+	nconfig "github.com/Traliaa/chlab/config"
+	"github.com/Traliaa/chlab/logger"
+	"github.com/Traliaa/chlab/support"
 	"os"
 )
 
